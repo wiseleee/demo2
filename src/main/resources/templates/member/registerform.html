@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>회원가입</h1>
+<hr>
+<form action="/member/register">
+<label for="id">ID : </label>
+<input type="text" id="id" name="id" placeholder="id" required autofocus/>
+<label for="pw">PW : </label>
+<input type="password" id="pw" name="pw" placeholder="password" required/>
+<label for="addr">ADDR : </label>
+<input type="text" id="addr" name="addr" placeholder="addr" required/>
+<label for="tel">TEL : </label>
+<input type="text" id="tel" name="tel" placeholder="tel" required/>
+<button class="btn btn-lg btn-primary btn-block" type="submit">가입</button>   
+</form>
+</body>
+</html>

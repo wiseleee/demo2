@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".list").on("click", function(){
+				
+				location.href = "/member/list";
+						    
+			})
+		})
+	</script>
+<body>
+<h1>환영합니다! *__*</h1>
+<form action="/member/home" method="post">
+<button class="btn btn-lg btn-primary btn-block" type="submit">탈퇴</button>
+<button class="list btn btn-danger" type="button">리스트</button>   
+</form>
+</body>
+</html>
